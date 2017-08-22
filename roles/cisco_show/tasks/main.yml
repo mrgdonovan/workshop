@@ -1,5 +1,5 @@
 ---
-- name Show prechange status
+- name: Show prechange status
   nxos_command:
     host: '{{ inventory_hostname}}'
     commands:
